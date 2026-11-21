@@ -1,0 +1,24 @@
+{
+  "offers": [
+    {
+      "currency": "ريال",
+      "id": 197,
+      "image": "https://upgrade.loh.com.sa/storage/images/coupons/1792915133_3973.png",
+      "name": "Test Offer",
+      "sales_count": 1,
+      "sales_total": "1.00",
+      "status": "active",
+      "status_text": "نشط"
+    }
+  ],
+  "pagination": {
+    "count_items": 1,
+    "current_page": 1,
+    "next_page_url": "",
+    "per_page": 3,
+    "perv_page_url": "",
+    "prev_page_url": "",
+    "total_items": 1,
+    "total_pages": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "key": "success",
+  "msg": "تم الإرسال بنجاح",
+  "data": {
+    "coupon": {
+      "currency": "ريال",
+      "id": 197,
+      "image": "https://upgrade.loh.com.sa/storage/images/coupons/1792915133_3973.png",
+      "name": "Test Offer",
+      "price": "1.00",
+      "published_at": "2026-10-25",
+      "published_at_text": "25 أكتوبر 2026",
+      "status": "active",
+      "status_text": "مفعل",
+      "updated_at": "2026-10-25",
+      "updated_at_text": "آخر تحديث: 25 أكتوبر 2026"
+    },
+    "orders": [],
+    "pagination": {
+      "count_items": 0,
+      "current_page": 1,
+      "next_page_url": "",
+      "per_page": 3,
+      "perv_page_url": "",
+      "prev_page_url": "",
+      "total_items": 0,
+      "total_pages": 1
+    }
+  }
+}

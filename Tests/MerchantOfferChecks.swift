@@ -1,0 +1,40 @@
+import Foundation
+
+@main
+struct MerchantOfferChecks {
+    @MainActor static func main() async {
+        let store = MerchantOfferStore.preview()
+        await store.reload(query: "موهيتو", sort: .recent)
+        precondition(store.offers.map(\.id) == ["mojito"])
+        await store.reload(query: "MOJITO", sort: .recent)
+        precondition(store.offers.map(\.id) == ["mojito"])
+        await store.reload(query: "missing", sort: .recent)
+        precondition(store.offers.isEmpty)
+        await store.reload(query: "", sort: .highPrice)
+        precondition(store.offers.compactMap(\.priceHalalas) == [1600, 1400, 1200, 800])
+        precondition(MerchantOfferStore.normalizedCode(" ١٢٣٤٥٦\n") == "123456")
+        precondition(MerchantOfferStore.normalizedCode("abc123456") == nil)
+        precondition(MerchantOfferStore.normalizedCode("123 456") == nil)
+        precondition(!store.deliver("order-1"), "Unverified orders cannot be delivered")
+        precondition(!store.verify("000000", method: .code) && store.verificationError == .invalid)
+        precondition(!store.verify("111111", method: .barcode) && store.verificationError == .expired)
+        precondition(!store.verify("654321", method: .code) && store.verificationError == .delivered)
+        precondition(store.verify("١٢٣٤٥٦", method: .code))
+        precondition(store.pendingOrderID == "order-1" && store.verifiedOrderID == "order-1")
+        precondition(!store.deliver("order-3"), "Verification is bound to one order")
+        store.clearVerification(for: "order-1")
+        precondition(!store.deliver("order-1"), "Cancel invalidates verification")
+        precondition(store.verify("123456", method: .barcode))
+        precondition(store.deliver("order-1"))
+        precondition(store.order("order-1")?.delivered == true && store.order("order-1")?.method == .barcode)
+        precondition(!store.deliver("order-1"), "Repeated delivery is rejected")
+        precondition(!store.verify("123456", method: .code) && store.verificationError == .delivered)
+        precondition(store.orders(for: "mojito").filter(\.delivered).count == 2)
+        precondition(store.verify("234567", method: .code))
+        precondition(!store.verify("000000", method: .code))
+        precondition(store.verifiedOrderID == nil && store.pendingOrderID == nil)
+        let expired = MerchantOfferStore.preview(now: MerchantOfferStore.date(2, month: 6))
+        precondition(!expired.verify("234567", method: .barcode) && expired.verificationError == .expired)
+        print("Passed: bilingual search, sorting, Arabic digits, strict codes, invalid/expired/used codes, verification isolation, cancel, local delivery and repeat-delivery protection.")
+    }
+}

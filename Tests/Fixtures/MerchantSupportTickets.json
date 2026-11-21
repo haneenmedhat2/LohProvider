@@ -1,0 +1,10 @@
+{
+  "data": [
+    {"created_at": "2024-07-30 09:41:00", "description": "عند محاولة استخدام العرض يظهر لي خطأ...", "id": 1, "is_open": true, "name": "مشكلة في استخدام العرض", "status": "open", "status_text": "مفتوح"},
+    {"created_at": "2024-07-25 16:30:00", "description": "تم استرجاع المبلغ بنجاح، شكراً لكم.", "id": 2, "is_open": false, "name": "استرجاع المبلغ", "status": "closed", "status_text": "مغلق"},
+    {"created_at": "2024-07-18 11:20:00", "description": "اقتراح إضافة عروض جديدة في قسم الكافيهات.", "id": 3, "is_open": false, "name": "اقتراح بشأن العروض", "status": "closed", "status_text": "مغلق"},
+    {"created_at": "2024-07-10 08:15:00", "description": "تم حل المشكلة، وصلتني رسالة التحقق الآن.", "id": 4, "is_open": false, "name": "لم أستلم رمز التحقق", "status": "closed", "status_text": "مغلق"}
+  ],
+  "key": "success",
+  "msg": "تم الإرسال بنجاح"
+}

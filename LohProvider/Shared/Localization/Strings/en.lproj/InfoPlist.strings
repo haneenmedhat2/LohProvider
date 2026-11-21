@@ -1,0 +1,15 @@
+/* 
+  InfoPlist.strings
+  CTF
+
+  Created by Mohamed Hadwa on 29/12/2023.
+  
+*/
+
+"CFBundleDisplayName" = "LOH";
+"NSCameraUsageDescription" = "Scan order barcodes to verify customer orders.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "to get nearest providers around you";
+"NSLocationAlwaysUsageDescription" = "to get nearest providers around you";
+"NSLocationWhenInUseUsageDescription" = "to get nearest providers around you";
+"NSPhotoLibraryUsageDescription" = "to pick your profile picture";
+"NSMicrophoneUsageDescription" = "to send voice messages";

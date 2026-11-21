@@ -1,0 +1,37 @@
+{
+  "key": "success",
+  "msg": "تم الإرسال بنجاح",
+  "data": {
+    "id": 916,
+    "coupon": {
+      "id": 197,
+      "image": "https://upgrade.loh.com.sa/storage/images/coupons/1792915133_3973.png",
+      "name": "Test Offer"
+    },
+    "coupon_number": "2010109700000916",
+    "currency": "ريال",
+    "customer": {
+      "id": 4743,
+      "is_verified": false,
+      "name": "Test customer",
+      "phone": "0500000000",
+      "verification_method": null,
+      "verification_method_text": "لم يتم التحقق بعد",
+      "verified_at": null
+    },
+    "price": "1.00",
+    "purchase_code": "20261027916",
+    "purchased_at": {
+      "date_text": "27 أكتوبر 2026",
+      "datetime": "2026-10-27 16:02:57",
+      "time_text": "04:02 م"
+    },
+    "status": "ready",
+    "status_text": "مفعل",
+    "valid_until": {
+      "date_text": "26 ديسمبر 2026",
+      "datetime": "2026-12-26 16:02:57",
+      "time_text": "04:02 م"
+    }
+  }
+}

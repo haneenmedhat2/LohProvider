@@ -1,0 +1,24 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon" clip-path="url(#clip0_0_222)">
+<path id="Vector" d="M54 0H0V54H54V0Z" fill="url(#paint0_linear_0_222)"/>
+<path id="Vector_2" opacity="0.8" d="M22 20H12C10.8954 20 10 20.8954 10 22V40C10 41.1046 10.8954 42 12 42H22C23.1046 42 24 41.1046 24 40V22C24 20.8954 23.1046 20 22 20Z" fill="#4CAF50"/>
+<path id="Vector_3" opacity="0.7" d="M22 15H12C10.8954 15 10 15.8954 10 17V20C10 21.1046 10.8954 22 12 22H22C23.1046 22 24 21.1046 24 20V17C24 15.8954 23.1046 15 22 15Z" fill="#66BB6A"/>
+<path id="Vector_4" opacity="0.7" d="M17 17.5C20.866 17.5 24 16.3807 24 15C24 13.6193 20.866 12.5 17 12.5C13.134 12.5 10 13.6193 10 15C10 16.3807 13.134 17.5 17 17.5Z" fill="#81C784"/>
+<path id="Vector_5" d="M22 9C22 8.44772 21.5523 8 21 8C20.4477 8 20 8.44772 20 9V25C20 25.5523 20.4477 26 21 26C21.5523 26 22 25.5523 22 25V9Z" fill="#FF8F00"/>
+<path id="Vector_6" opacity="0.9" d="M40 18H30C28.8954 18 28 18.8954 28 20V40C28 41.1046 28.8954 42 30 42H40C41.1046 42 42 41.1046 42 40V20C42 18.8954 41.1046 18 40 18Z" fill="#388E3C"/>
+<path id="Vector_7" opacity="0.7" d="M40 13H30C28.8954 13 28 13.8954 28 15V18C28 19.1046 28.8954 20 30 20H40C41.1046 20 42 19.1046 42 18V15C42 13.8954 41.1046 13 40 13Z" fill="#4CAF50"/>
+<path id="Vector_8" opacity="0.7" d="M35 15.5C38.866 15.5 42 14.3807 42 13C42 11.6193 38.866 10.5 35 10.5C31.134 10.5 28 11.6193 28 13C28 14.3807 31.134 15.5 35 15.5Z" fill="#66BB6A"/>
+<path id="Vector_9" d="M40 7C40 6.44772 39.5523 6 39 6C38.4477 6 38 6.44772 38 7V23C38 23.5523 38.4477 24 39 24C39.5523 24 40 23.5523 40 23V7Z" fill="#FF8F00"/>
+<path id="Vector_10" opacity="0.8" d="M14 49C16.7614 49 19 46.7614 19 44C19 41.2386 16.7614 39 14 39C11.2386 39 9 41.2386 9 44C9 46.7614 11.2386 49 14 49Z" fill="#8BC34A"/>
+<path id="Vector_11" opacity="0.6" d="M14 47C15.6569 47 17 45.6569 17 44C17 42.3431 15.6569 41 14 41C12.3431 41 11 42.3431 11 44C11 45.6569 12.3431 47 14 47Z" fill="#CDDC39"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_222" x1="0" y1="0" x2="2916" y2="2916" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E8F5E9"/>
+<stop offset="1" stop-color="#A5D6A7"/>
+</linearGradient>
+<clipPath id="clip0_0_222">
+<rect width="54" height="54" fill="white"/>
+</clipPath>
+</defs>
+</svg>

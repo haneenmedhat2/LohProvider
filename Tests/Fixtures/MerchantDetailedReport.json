@@ -1,0 +1,109 @@
+{
+  "key": "success",
+  "msg": "تم الإرسال بنجاح",
+  "data": {
+    "period": "custom",
+    "from": "2026-01-01",
+    "to": "2026-12-30",
+    "period_label": "1 يناير 2026 - 30 ديسمبر 2026",
+    "currency": "ريال",
+    "note": "جميع الأرقام تشمل الطلبات المكتملة فقط",
+    "stats": {
+      "orders_count": 0,
+      "sales_total": "0.00",
+      "average_order_value": "0.00"
+    },
+    "group_by": "month",
+    "rows": [
+      {
+        "date": "2026-01",
+        "label": "يناير",
+        "orders_count": 0,
+        "sales_total": "0.00",
+        "average_order_value": "0.00"
+      },
+      {
+        "date": "2026-02",
+        "label": "فبراير",
+        "orders_count": 0,
+        "sales_total": "0.00",
+        "average_order_value": "0.00"
+      },
+      {
+        "date": "2026-03",
+        "label": "مارس",
+        "orders_count": 0,
+        "sales_total": "0.00",
+        "average_order_value": "0.00"
+      },
+      {
+        "date": "2026-04",
+        "label": "أبريل",
+        "orders_count": 0,
+        "sales_total": "0.00",
+        "average_order_value": "0.00"
+      },
+      {
+        "date": "2026-05",
+        "label": "مايو",
+        "orders_count": 0,
+        "sales_total": "0.00",
+        "average_order_value": "0.00"
+      },
+      {
+        "date": "2026-06",
+        "label": "يونيو",
+        "orders_count": 0,
+        "sales_total": "0.00",
+        "average_order_value": "0.00"
+      },
+      {
+        "date": "2026-07",
+        "label": "يوليو",
+        "orders_count": 0,
+        "sales_total": "0.00",
+        "average_order_value": "0.00"
+      },
+      {
+        "date": "2026-08",
+        "label": "أغسطس",
+        "orders_count": 0,
+        "sales_total": "0.00",
+        "average_order_value": "0.00"
+      },
+      {
+        "date": "2026-09",
+        "label": "سبتمبر",
+        "orders_count": 0,
+        "sales_total": "0.00",
+        "average_order_value": "0.00"
+      },
+      {
+        "date": "2026-10",
+        "label": "أكتوبر",
+        "orders_count": 0,
+        "sales_total": "0.00",
+        "average_order_value": "0.00"
+      },
+      {
+        "date": "2026-11",
+        "label": "نوفمبر",
+        "orders_count": 0,
+        "sales_total": "0.00",
+        "average_order_value": "0.00"
+      },
+      {
+        "date": "2026-12",
+        "label": "ديسمبر",
+        "orders_count": 0,
+        "sales_total": "0.00",
+        "average_order_value": "0.00"
+      }
+    ],
+    "totals": {
+      "orders_count": 0,
+      "sales_total": "0.00",
+      "average_order_value": "0.00"
+    }
+  }
+}

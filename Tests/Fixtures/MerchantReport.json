@@ -1,0 +1,98 @@
+{
+  "key": "success",
+  "msg": "تم الإرسال بنجاح",
+  "data": {
+    "stats": {
+      "currency": "ريال",
+      "compare_text": "عن الفترة السابقة",
+      "sales": {
+        "total": "0.00",
+        "change_percent": 0,
+        "trend": "same"
+      },
+      "orders": {
+        "total": 0,
+        "change_percent": 0,
+        "trend": "same"
+      }
+    },
+    "chart": {
+      "group_by": "month",
+      "points": [
+        {
+          "date": "2026-01",
+          "label": "يناير",
+          "value": 0
+        },
+        {
+          "date": "2026-02",
+          "label": "فبراير",
+          "value": 0
+        },
+        {
+          "date": "2026-03",
+          "label": "مارس",
+          "value": 0
+        },
+        {
+          "date": "2026-04",
+          "label": "أبريل",
+          "value": 0
+        },
+        {
+          "date": "2026-05",
+          "label": "مايو",
+          "value": 0
+        },
+        {
+          "date": "2026-06",
+          "label": "يونيو",
+          "value": 0
+        },
+        {
+          "date": "2026-07",
+          "label": "يوليو",
+          "value": 0
+        },
+        {
+          "date": "2026-08",
+          "label": "أغسطس",
+          "value": 0
+        },
+        {
+          "date": "2026-09",
+          "label": "سبتمبر",
+          "value": 0
+        },
+        {
+          "date": "2026-10",
+          "label": "أكتوبر",
+          "value": 0
+        },
+        {
+          "date": "2026-11",
+          "label": "نوفمبر",
+          "value": 0
+        },
+        {
+          "date": "2026-12",
+          "label": "ديسمبر",
+          "value": 0
+        }
+      ]
+    },
+    "top_offers": {
+      "pagination": {
+        "total_items": 0,
+        "count_items": 0,
+        "per_page": 3,
+        "total_pages": 1,
+        "current_page": 1,
+        "next_page_url": "",
+        "perv_page_url": "",
+        "prev_page_url": ""
+      },
+      "offers": []
+    }
+  }
+}

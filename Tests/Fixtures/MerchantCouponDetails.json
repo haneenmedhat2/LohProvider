@@ -1,0 +1,61 @@
+{
+  "key": "success",
+  "msg": "تم الإرسال بنجاح",
+  "data": {
+    "coupon": {
+      "currency": "ريال",
+      "id": 197,
+      "image": "https://upgrade.loh.com.sa/storage/images/coupons/1792915133_3973.png",
+      "name": "Test Offer",
+      "price": "1.00",
+      "published_at": "2026-10-25",
+      "published_at_text": "25 أكتوبر 2026",
+      "status": "active",
+      "status_text": "مفعل",
+      "updated_at": "2026-10-26",
+      "updated_at_text": "آخر تحديث: 26 أكتوبر 2026"
+    },
+    "orders": [
+      {
+        "coupon_name": "Test Offer",
+        "created_at": "2026-10-26 13:18:16",
+        "created_at_text": "اليوم • 01:18 م",
+        "customer_name": "test userr",
+        "id": 910,
+        "print_code": "20261026910",
+        "status": "pending",
+        "status_text": "بانتظار التسليم"
+      },
+      {
+        "coupon_name": "Test Offer",
+        "created_at": "2026-10-26 12:07:10",
+        "created_at_text": "اليوم • 12:07 م",
+        "customer_name": "test userr",
+        "id": 909,
+        "print_code": "20261026909",
+        "status": "delivered",
+        "status_text": "تم التسليم"
+      },
+      {
+        "coupon_name": "Test Offer",
+        "created_at": "2026-10-26 12:07:10",
+        "created_at_text": "اليوم • 12:07 م",
+        "customer_name": "test userr",
+        "id": 908,
+        "print_code": "20261026908",
+        "status": "pending",
+        "status_text": "بانتظار التسليم"
+      }
+    ],
+    "pagination": {
+      "count_items": 3,
+      "current_page": 1,
+      "next_page_url": "https://upgrade.loh.com.sa/api/vendor/coupon-details/197?page=2",
+      "per_page": 3,
+      "perv_page_url": "",
+      "prev_page_url": "",
+      "total_items": 7,
+      "total_pages": 3
+    }
+  }
+}
